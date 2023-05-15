@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "poetry add openai langchain"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+bs4 = "^0.0.1"
+promptlayer = "^0.1.81"
+openai = "^0.27.6"
+langchain = "^0.0.168"
+python-dotenv = "^1.0.0"
+regex = "^2023.5.5"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
